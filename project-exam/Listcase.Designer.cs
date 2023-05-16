@@ -1,6 +1,6 @@
 ﻿namespace exam_17._05
 {
-    partial class AddCase
+    partial class Listcase
     {
         /// <summary>
         /// Required designer variable.
