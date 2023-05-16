@@ -23,9 +23,8 @@ namespace exam_17._05
         {
             InitializeComponent();
 
-            comboBox1.Items.Add("Низкий");
-            comboBox1.Items.Add("Средний");
-            comboBox1.Items.Add("Высокий");
+            comboBox1.Items.Add("Low");
+            comboBox1.Items.Add("High");
             comboBox1.SelectedItem = comboBox1.Items[0];
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
