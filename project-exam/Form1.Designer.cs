@@ -58,7 +58,6 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
             this.projectToolStripMenuItem,
-            this.savePDFFileToolStripMenuItem});
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
@@ -98,11 +97,6 @@
             // 
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
             resources.ApplyResources(this.projectToolStripMenuItem, "projectToolStripMenuItem");
-            // 
-            // savePDFFileToolStripMenuItem
-            // 
-            this.savePDFFileToolStripMenuItem.Name = "savePDFFileToolStripMenuItem";
-            resources.ApplyResources(this.savePDFFileToolStripMenuItem, "savePDFFileToolStripMenuItem");
             // 
             // label1
             // 
@@ -155,20 +149,12 @@
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listView1);
@@ -194,7 +180,6 @@
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem projectToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem savePDFFileToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListView listView1;
@@ -204,6 +189,5 @@
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
     }
 }
