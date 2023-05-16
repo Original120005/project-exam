@@ -28,7 +28,6 @@ namespace exam_17._05
             item = listView1.Items.Add("01.01.2023");
             item.SubItems.Add("12:00");
             item.SubItems.Add("Hight");
-            item.SubItems.Add("Tag");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
