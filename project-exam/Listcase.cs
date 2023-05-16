@@ -11,7 +11,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace exam_17._05
 {
-    public partial class AddCase : Form
+    public partial class Listcase : Form
     {
 
         static class Send
@@ -19,7 +19,7 @@ namespace exam_17._05
             public static string Value { get; set; }
         }
 
-        public AddCase()
+        public Listcase()
         {
             InitializeComponent();
 
