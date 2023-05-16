@@ -79,10 +79,5 @@ namespace exam_17._05
 
         }
 
-        /*private void dateTimePicker1_ValueChanged(object sender, EventArgs e) {
-              listBox1.Items.Clear();
-              listBox1.Items.Add(dateTimePicker1.Value.ToLongDateString());
-          }*/
-
     }
 }
