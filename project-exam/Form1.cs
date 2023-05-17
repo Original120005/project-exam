@@ -57,7 +57,7 @@ namespace exam_17._05
             set { item.SubItems.Add(value); }
         }
 
-        public string ReceiveTag
+        public string ReceiveDiscription
         {
             get { return listView1.Items.ToString(); }
             set { item.SubItems.Add(value); }
